@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluation wizard</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bd-wizard.css">
+</head>
+
+<body>
+    <main class="my-5">
+        <div class="container">
+            <div id="wizard">
+                <h3>
+                    <div class="media">
+                        <div class="bd-wizard-step-icon"><i class="mdi mdi-account-outline"></i></div>
+                        <div class="bd-wizard-step-title">Personal Details</div>
+                    </div>
+                </h3>
+                <section>
+                    <div class="content-wrapper">
+                        <h4 class="section-heading">Enter your Personal details </h4>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="firstName">First Name</label>
+                                <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="emailAddress">Email Address</label>
+                                <input type="email" name="emailAddress" id="emailAddress" class="form-control"
+                                    placeholder="Email Address">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <h3>
+                    <div class="media">
+                        <div class="bd-wizard-step-icon"><i class="mdi mdi-bank"></i></div>
+                        <div class="bd-wizard-step-title">Employ Details</div>
+                    </div>
+                </h3>
+                <section>
+                    <div class="content-wrapper">
+                        <h4 class="section-heading">Enter your Employment details </h4>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="designation">Designation</label>
+                                <input type="text" name="designation" id="designation" class="form-control" placeholder="Designation">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="department">Department</label>
+                                <input type="text" name="department" id="department" class="form-control" placeholder="Department">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="employeeNumber">Employee Number</label>
+                                <input type="text" name="employeeNumber" id="employeeNumber" class="form-control"
+                                    placeholder="Employee Number">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="workEmailAddress">Work Email Address</label>
+                                <input type="email" name="workEmailAddress" id="workEmailAddress" class="form-control"
+                                    placeholder="Work Email Address">
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <h3>
+                    <div class="media">
+                        <div class="bd-wizard-step-icon"><i class="mdi mdi-account-check-outline"></i></div>
+                        <div class="bd-wizard-step-title">Skills </div>
+                    </div>
+                </h3>
+                <section>
+                    <div class="content-wrapper">
+                        <h4 class="section-heading mb-5">Employee Skills</h4>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6" style="float: left; top: 10px;">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            HTML
+                                       
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="float: right;">
+                                    <div class="rate text-white ">
+                                        <div class="rating">
+                                            <input type="radio" name="rating1" value="5" id="Radio1"><label for="Radio1">☆</label>
+                                            <input type="radio" name="rating1" value="4" id="Radio2"><label for="Radio2">☆</label>
+                                            <input type="radio" name="rating1" value="3" id="Radio3"><label for="Radio3">☆</label>
+                                            <input type="radio" name="rating1" value="2" id="Radio4"><label for="Radio4">☆</label>
+                                            <input type="radio" name="rating1" value="1" id="Radio5"><label for="Radio5">☆</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="row">
+
+                                <div class="col-md-6" style="float: left; top: 10px;">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            JAVA SCRIPT
+                   
+                                        </label>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="float: right;">
+                                    <div class="rate text-white ">
+                                        <div class="rating">
+                                            <input type="radio" name="rating2" value="5" id="Radio6"><label for="Radio6">☆</label>
+                                            <input type="radio" name="rating2" value="4" id="Radio7"><label for="Radio7">☆</label>
+                                            <input type="radio" name="rating2" value="3" id="Radio8"><label for="Radio8">☆</label>
+                                            <input type="radio" name="rating2" value="2" id="Radio9"><label for="Radio9">☆</label>
+                                            <input type="radio" name="rating2" value="1" id="Radio10"><label for="Radio10">☆</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-12">
+                            <div class="row">
+
+                                <div class="col-md-6" style="float: left; top: 10px;">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            BOOTSTRAP
+         
+                                        </label>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="float: right;">
+                                    <div class="rate text-white ">
+                                        <div class="rating">
+                                            <input type="radio" name="rating3" value="5" id="Radio11"><label for="Radio11">☆</label>
+                                            <input type="radio" name="rating3" value="4" id="Radio12"><label for="Radio12">☆</label>
+                                            <input type="radio" name="rating3" value="3" id="Radio13"><label for="Radio13">☆</label>
+                                            <input type="radio" name="rating3" value="2" id="Radio14"><label for="Radio14">☆</label>
+                                            <input type="radio" name="rating3" value="1" id="Radio15"><label for="Radio15">☆</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+
+                                <div class="col-md-6" style="float: left; top: 10px;">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            CSS
+         
+                                        </label>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="float: right;">
+                                    <div class="rate text-white ">
+                                        <div class="rating">
+                                            <input type="radio" name="rating4" value="5" id="Radio16"><label for="Radio16">☆</label>
+                                            <input type="radio" name="rating4" value="4" id="Radio17"><label for="Radio17">☆</label>
+                                            <input type="radio" name="rating4" value="3" id="Radio18"><label for="Radio18">☆</label>
+                                            <input type="radio" name="rating4" value="2" id="Radio19"><label for="Radio19">☆</label>
+                                            <input type="radio" name="rating4" value="1" id="Radio20"><label for="Radio20">☆</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+
+                                <div class="col-md-6" style="float: left; top: 10px;">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            JAVA
+         
+                                        </label>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="float: right;">
+                                    <div class="rate text-white ">
+                                        <div class="rating">
+                                            <input type="radio" name="rating5" value="5" id="Radio21"><label for="Radio21">☆</label>
+                                            <input type="radio" name="rating5" value="4" id="Radio22"><label for="Radio22">☆</label>
+                                            <input type="radio" name="rating5" value="3" id="Radio23"><label for="Radio23">☆</label>
+                                            <input type="radio" name="rating5" value="2" id="Radio24"><label for="Radio24">☆</label>
+                                            <input type="radio" name="rating5" value="1" id="Radio25"><label for="Radio25">☆</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <h3>
+                    <div class="media">
+                        <div class="bd-wizard-step-icon"><i class="mdi mdi-emoticon-outline"></i></div>
+                        <div class="media-body">
+                            <div class="bd-wizard-step-title">Submit</div>
+                        </div>
+                    </div>
+                </h3>
+                <section>
+                    <div class="content-wrapper">
+                        <h4 class="section-heading mb-5">Accept agreement and Submit</h4>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                                I hereby declare that the details provided my me in this form are true.
+             
+                            </label>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.steps.min.js"></script>
+    <script src="assets/js/bd-wizard.js"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
-Here i completed my task.
-By using HTML tags, CSS, Bootstrap freamwork, Js and Jquery functions.
-what I'm done in this task is, create a Evaluation Dashboard with different tabs.
-Employees provide the details & review their own skills and submit the from.
+Here I completed my task.
+By using HTML tags, CSS, Bootstrap framework, Js and Jquery functions.
+what I'm doing in this task is, creating an Evaluation Dashboard with different tabs.
+Employees provide the details & review their own skills and submit the form.
 Then the alert message will be displayed.
